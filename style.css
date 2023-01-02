@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+h3{
+    background-color: #e9c46a;
+    padding: 8px;
+    border: 2px solid grey;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+#search{
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 350px;
+    height: 35px;
+    outline-color: #e76f51;
+    color: green;
+}
+button{
+    width: 80px;
+    padding: 3px;
+    height: 35px;
+    font-size: 15px;
+   background-color: #2a9d8f;
+   color: white;
+   font-weight: bold;
+   border-radius: 2px;
+}
+button:hover{
+    background-color: #e76f51;
+
+}
+img{
+    height:250px;
+    width: 350px;
+    object-fit: contain;
+}
+li{
+    list-style-type: none;
+}
+
+div{
+    border: 2px solid rgb(111, 0, 255);
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+
+    
+}
+#brandName{
+    display: inline-block;
+    background-color: yellow;
+    padding: 3px;
+}
+span{
+    color: #e76f51;;
+}
+a:hover{
+    color: #eef078;
+
+}
+a:visited{
+    color: #2a9d8f;
+}
+
+/* Error Message */
+.Bname{
+    color: green;
+}
+.errorMessage{
+    color: red;
+}
